@@ -91,5 +91,5 @@ function showTable1($tname,$connect,$colnames){
     }
     }
     echo "<br>";
-    showTable1("teacher",$connect,["name","subjects"]);
+    showTable1("teacher",$connect,["name","subject"]);
 ?>
